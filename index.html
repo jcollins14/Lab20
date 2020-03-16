@@ -1,0 +1,89 @@
+<html>
+    <link href="style.css" rel="stylesheet">
+    <header class="navigation">
+      <a href="index.html">Jake Collins</a>
+      <a href="about.html">About Me</a>
+      <a href="portfolio.html">Portfolio</a>
+    </header>
+    <hr>
+    <body>
+        <div>
+            <h1 class="title">
+                Travel
+            </h1>
+            <p>
+                I love to travel. I tend to travel to large cities. I've all over the United States, from New York to Seattle. I am currently planning on going to Japan for my first international trip in October 2020 (barring any COVID-19 worsening over the next six months). Personally, I feel travel is the best way to get out and learn about people and cultures that differ from your own, expanding your perspective and allowing you to empathize with others more.
+            </p>
+            <h2 class="subtitle"> Places I've Been</h2>
+            <div class="center">
+            <p class="hint">Use the icon in the top left corner to view/toggle layers!</p>
+            <iframe class="iframe" src="https://www.google.com/maps/d/u/0/embed?mid=1JCXsxW8YkhJKblDaNISI9qbQ3KI" width="80%" height="600" margin="auto"></iframe>
+          </div>
+        </div>
+        <div>
+            <h1 class="title">
+                Food
+            </h1>
+            <p>
+                I'm a big Foodie, and make it the focus of wherever I travel. I picked up an interest in cooking from watching the Food Network after school when I was a child. I learned how to properly cook from an old roommate and good friend of mine who is a culinary school graduate and established chef. I find it very enjoyable to cook for those I care about.
+            </p>
+<div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 8</div>
+      <img src="photos/food/buddysPizza.jpg" style="width:100%">
+      <div class="text">Detroit Style Pizza from Buddy's Pizza in Detroit, MI</div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 8</div>
+      <img src="photos/food/wolfgangBurger.jpg" style="width:100%">
+      <div class="text">Burger & Fries from The Kitchen by Wolfgang Puck in Grand Rapids, MI</div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 8</div>
+      <img src="photos/food/steak.jpg" style="width:100%">
+      <div class="text">Homemade Sous Vide Steak</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 8</div>
+        <img src="photos/food/seattleTacos.jpg" style="width:100%">
+        <div class="text">Assorted Tacos from Cantina Taqueria in Seattle, WA</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">5 / 8</div>
+        <img src="photos/food/seattleSushi.jpg" style="width:100%">
+        <div class="text">Chef's Sushi Selection from Aburiya Bento House in Seattle, WA</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">6 / 8</div>
+        <img src="photos/food/scallops.jpg" style="width:100%">
+        <div class="text">Home Seared Scallops</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">7 / 8</div>
+        <img src="photos/food/calamari.jpg" style="width:100%">
+        <div class="text">Fried Calamari from Sapporo Ramen Bar in Grand Rapids, MI</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">8 / 8</div>
+        <img src="photos/food/katsuBurger.jpg" style="width:100%">
+        <div class="text">Japanese Cutlet Burger from Katsu Burger in Seattle, WA</div>
+    </div>
+  </div>
+  <script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+    </script>
+    </body>
+</html>
